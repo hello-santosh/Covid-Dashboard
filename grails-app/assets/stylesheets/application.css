@@ -1,0 +1,73 @@
+/*
+* This is a manifest file that'll be compiled into application.css, which will include all the files
+* listed below.
+*
+* Any CSS file within this directory can be referenced here using a relative path.
+*
+* You're free to add application-wide styles to this file and they'll appear at the top of the
+* compiled file, but it's generally better to create a new file per style scope.
+*
+*= require bootstrap
+*= require grails
+*= require main
+*= require mobile
+*= require_self
+*/
+
+.dashboardTitle{
+    font-size: 30px;
+    padding-bottom: 0.5%;
+    border-bottom: 1px solid #000000;
+    margin-right: 75%
+}
+
+.customButton {
+    margin: 1% 2% 1% 0%;
+    background-color: #fff;
+    border: 1px solid #d5d9d9;
+    border-radius: 8px;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    box-sizing: border-box;
+    color: #0f1111;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Amazon Ember",sans-serif;
+    font-size: 13px;
+    line-height: 29px;
+    padding: 0 10px 0 11px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+    width: 100px;
+}
+
+.customButton:hover {
+    background-color: #f7fafa;
+}
+
+.customButton:focus {
+    border-color: #008296;
+    box-shadow: rgba(213, 217, 217, .5) 0 2px 5px 0;
+    outline: 0;
+}
+
+.chartCanvas{
+    margin-top:20px;
+    padding:1%;
+    max-height: 80%;
+}
+
+#covidTable {
+    margin-top:5px;
+    border-radius: 10px;
+    overflow: hidden;  /* This ensures that the content inside respects the border radius */
+}
+
+#exportTable{
+    float: right;
+    margin-right: 0px !important;
+}
